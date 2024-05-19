@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<launch>
+    <arg name="sim" default="false"/>
+
+    <include file="$(find sl_ctrl)/launch/sl_designer.launch">
+    </include>
+    <include file="$(find sl_ctrl)/launch/sl_planner.launch">
+        <arg name="sim" default="$(arg sim)"/>
+    </include>
+
+    <node pkg="sl_ctrl" name="sl_ctrl_node" type="sl_ctrl_node.py" output="screen">
+	    <!-- <rosparam command="load" file="$(find sl_ctrl)/config/param.yaml" /> -->
+        <param name="sim" type="bool" value="$(arg sim)" />
+    </node>
+
+    <node pkg="sl_ctrl" name="sl_logger" type="sl_logger.py" output="screen">
+    </node>
+
+</launch>

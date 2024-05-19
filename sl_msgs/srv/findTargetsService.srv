@@ -1,0 +1,5 @@
+string target_name
+string camera_name
+---
+geometry_msgs/PoseArray target
+std_msgs/Float64MultiArray confidence

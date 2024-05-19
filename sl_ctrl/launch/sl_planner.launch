@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+
+    <node pkg="sl_ctrl" name="sl_planner" type="sl_planner.py" output="screen">
+    </node>
+
+</launch>

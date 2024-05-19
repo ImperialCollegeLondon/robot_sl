@@ -1,0 +1,4 @@
+std_msgs/Int8MultiArray pattern
+std_msgs/Int8 aesthetic_mode
+---
+std_msgs/String plan

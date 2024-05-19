@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<launch>
+  <arg name="sim" default="false"/>
+    <node pkg="sl_visn" name="sl_visn_node" type="sl_visn_node.py" output="screen" >
+        <param name="sim" type="bool" value="$(arg sim)" />
+        <!-- load params -->
+        <rosparam command="load" file="$(find sl_visn)/config/params_sim.yaml" if="$(arg sim)"/>
+        <rosparam command="load" file="$(find sl_visn)/config/params_real.yaml" unless="$(arg sim)"/>
+    </node>
+</launch>

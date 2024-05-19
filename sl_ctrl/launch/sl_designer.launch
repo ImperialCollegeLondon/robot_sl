@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+
+    <node pkg="sl_ctrl" name="sl_designer" type="sl_designer.py" output="screen">
+    </node>
+
+</launch>

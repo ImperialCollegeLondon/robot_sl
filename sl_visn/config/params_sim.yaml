@@ -1,0 +1,9 @@
+robot_name: "unity"
+aglet_thresh_blue_low: [180, 0, 0] 
+aglet_thresh_blue_high: [255, 100, 100]
+aglet_thresh_red_low: [0, 0, 180]
+aglet_thresh_red_high: [100, 100, 255]
+eyelet_thresh_blue_low: [100, 0, 0]
+eyelet_thresh_blue_high: [255, 80, 80]
+eyelet_thresh_red_low: [0, 0, 100]
+eyelet_thresh_red_high: [80, 80, 255]

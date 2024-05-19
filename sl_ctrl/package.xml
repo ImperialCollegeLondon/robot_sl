@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package format="2">
+    <name>sl_ctrl</name>
+    <version>1.0.0</version>
+    <description>The sl_ctrl package</description>
+    <maintainer email="hl18@ic.ac.uk">Haining Luo</maintainer>
+
+    <license>TODO</license>
+
+    <buildtool_depend>catkin</buildtool_depend>
+    
+    <depend>std_msgs</depend>
+    <depend>geometry_msgs</depend>
+
+</package>

@@ -1,0 +1,9 @@
+robot_name: "yumi"
+aglet_thresh_blue_low: [90, 56, 0]
+aglet_thresh_blue_high: [191, 148, 80]
+aglet_thresh_red_low: [0, 0, 125]
+aglet_thresh_red_high: [87, 55, 0]
+eyelet_thresh_blue_low: [80, 20, 0]
+eyelet_thresh_blue_high: [193, 145, 85]
+eyelet_thresh_red_low: [0, 0, 100]
+eyelet_thresh_red_high: [125, 85, 255]
